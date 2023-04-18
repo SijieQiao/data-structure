@@ -1,0 +1,7 @@
+typedef struct HeapStruct *MaxHeap;
+struct HeapStruct{
+  ElementType *Elements;
+  int size;
+  int Capacity;
+};
+
